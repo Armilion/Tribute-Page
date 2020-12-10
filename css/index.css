@@ -1,0 +1,189 @@
+body {
+  background-image: url("https://www.designyourway.net/diverse/darkpat/COLOURlovers.com-box_surprise_mystery.jpg");
+  background-repeat: repeat;
+  font-family: "Calibri", "Helvetica", "sans-serif";
+  font-size: 1.2em;
+  background-color: black;
+  color: white;
+  max-width: 1280px;
+  margin: auto;
+}
+
+header {
+  padding: 1em;
+}
+
+header > * {
+  text-align: center;
+  font-family: "Playfair Display SC", "arial", "sans-serif";
+}
+
+#title {
+  font-size: 3em;
+  border-bottom: 1px solid white;
+}
+
+#tribute-info {
+  margin: 2em 4em 2em 4em;
+}
+
+#tribute-info > p {
+  margin-bottom: 2em;
+}
+
+#content-container {
+  background-color: rgba(150, 150, 150, 0.1);
+  padding: 2em 2em 2em 2em;
+}
+
+#highlights {
+  text-align: center;
+  font-family: "Playfair Display SC", "arial", "sans-serif";
+  border-bottom: 1px solid white;
+  margin-top: 0em;
+  margin-bottom: 2.5em;
+  padding-bottom: 0.3em;
+}
+
+#grid {
+  max-width: 90%;
+  display: grid;
+  margin-top: 2em;
+}
+
+#grid > figure {
+  margin: 0;
+}
+
+.section-title {
+  font-size: 1.2em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  box-shadow: 0px 0px 5px 0px #646464;
+}
+
+figcaption {
+  text-align: center;
+  margin: 0.5em;
+  font-size: 0.9em;
+}
+
+#img-div {
+  margin: 0em 2em 0em 2em;
+}
+
+a {
+  color: yellow;
+}
+
+@media (min-width: 1280px) {
+  html {
+    background: url("images/undertaker_background.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    padding-bottom: 0px;
+  }
+
+  #title {
+    font-size: 2em;
+  }
+
+  #grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.5em;
+  }
+
+  #tribute-info {
+    margin: 0em;
+  }
+
+  #tribute-info > p {
+    padding: 2em;
+  }
+
+  section hr:nth-child(even) {
+    margin-bottom: 3em;
+  }
+
+  img {
+    max-height: 80vh;
+  }
+}
+@media (min-width: 800px) {
+  #grid {
+    grid-template-columns: repeat(3, 33%);
+    grid-row-gap: 2em;
+    grid-column-gap: 2em;
+    grid-template-areas: "debut1984 debut1984 debut1984img" "ss1990img ss1990 ss1990" "wm1991 wm1991 wm1991img" "ss1991img ss1991 ss1991" "casketss1992 casketss1992 casketss1992img" "hiac1997img hiac1997 hiac1997" "inferno1998 inferno1998 inferno1998img" "american2000img american2000 american2000" "buriedAlive2003 buriedAlive2003 buriedAlive2003img" "wm20img wm20 wm20" "bod bod bodimg" "rr2007img rr2007 rr2007" "wm25 wm25 wm25img" "wm30img wm30 wm30" "hiac2015 hiac2015 hiac2015img";
+  }
+
+  #debut1984 {
+    grid-area: debut1984;
+  }
+
+  #ss1990 {
+    grid-area: ss1990;
+  }
+
+  #wm1991 {
+    grid-area: wm1991;
+  }
+
+  #ss1991 {
+    grid-area: ss1991;
+  }
+
+  #casketss1992 {
+    grid-area: casketss1992;
+  }
+
+  #hiac1997 {
+    grid-area: hiac1997;
+  }
+
+  #inferno1998 {
+    grid-area: inferno1998;
+  }
+
+  #american2000 {
+    grid-area: american2000;
+  }
+
+  #buriedAlive2003 {
+    grid-area: buriedAlive2003;
+  }
+
+  #wm20 {
+    grid-area: wm20;
+  }
+
+  #bod {
+    grid-area: bod;
+  }
+
+  #rr2007 {
+    grid-area: rr2007;
+  }
+
+  #wm25 {
+    grid-area: wm25;
+  }
+
+  #wm30 {
+    grid-area: wm30;
+  }
+
+  #hiac2015 {
+    grid-area: hiac2015;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
