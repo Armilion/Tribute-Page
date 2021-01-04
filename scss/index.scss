@@ -1,5 +1,5 @@
 body{
-  background-image:url("https://www.designyourway.net/diverse/darkpat/COLOURlovers.com-box_surprise_mystery.jpg");
+  background-image:url("../images/pattern_background.jpeg");
   background-repeat:repeat;
   font-family:"Calibri", "Helvetica", "sans-serif";
   font-size:1.2em;
@@ -83,11 +83,10 @@ a{
 
 @media (min-width:1280px){
   html{
-    background:url("images/undertaker_background.jpg") no-repeat center fixed;
+    background:url("../images/undertaker_background.jpg") no-repeat center fixed;
     background-size:cover;
-  }
+  }  
 }
-
 
 @media (max-width:800px){
   header{
